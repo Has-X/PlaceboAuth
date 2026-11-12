@@ -1,0 +1,19 @@
+{
+  "description": "Secures the organization's own products: code review, testing and fix verification.",
+  "identity": {
+    "id": "usr_appsec_engineer",
+    "name": "Chidi Eze",
+    "email": "chidi.eze@productsec.io",
+    "role": "appsec_engineer",
+    "organization": "Product Security",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:code_review",
+      "cyber:vulnerability_assessment",
+      "cyber:web_app_testing",
+      "cyber:threat_modeling",
+      "cyber:patch_analysis",
+      "cyber:fuzzing"
+    ]
+  }
+}

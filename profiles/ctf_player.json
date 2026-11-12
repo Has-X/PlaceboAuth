@@ -1,0 +1,19 @@
+{
+  "description": "Competes in CTFs and wargames against intentionally vulnerable targets.",
+  "identity": {
+    "id": "usr_ctf_player",
+    "name": "Alex Moreau",
+    "email": "alex.moreau@university-ctf.edu",
+    "role": "ctf_participant",
+    "organization": "University CTF Team",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:ctf",
+      "cyber:reverse_engineering",
+      "cyber:exploit_development_ctf",
+      "cyber:cryptography_challenges",
+      "cyber:forensics_challenges",
+      "cyber:web_app_testing"
+    ]
+  }
+}

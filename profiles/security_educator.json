@@ -1,0 +1,19 @@
+{
+  "description": "Teaches offensive and defensive security in a controlled course lab.",
+  "identity": {
+    "id": "usr_security_educator",
+    "name": "Prof. Marta Kowalska",
+    "email": "marta.kowalska@security-lab.edu",
+    "role": "security_educator",
+    "organization": "University Security Lab",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:education",
+      "cyber:lab_exercises",
+      "cyber:malware_analysis",
+      "cyber:reverse_engineering",
+      "cyber:pentesting_lab",
+      "cyber:vulnerability_research"
+    ]
+  }
+}

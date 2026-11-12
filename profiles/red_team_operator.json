@@ -1,0 +1,19 @@
+{
+  "description": "Internal red team running authorized adversary simulation against the organization.",
+  "identity": {
+    "id": "usr_red_team_operator",
+    "name": "Sam Okafor",
+    "email": "sam.okafor@redcell.internal",
+    "role": "red_team_operator",
+    "organization": "Internal Red Team",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:red_team",
+      "cyber:pentesting",
+      "cyber:social_engineering_simulation",
+      "cyber:post_exploitation",
+      "cyber:detection_evasion_testing",
+      "cyber:reporting"
+    ]
+  }
+}

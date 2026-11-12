@@ -1,0 +1,18 @@
+{
+  "description": "Reverse engineers binaries, firmware and protocols for security and interoperability research.",
+  "identity": {
+    "id": "usr_reverse_engineer",
+    "name": "Aiko Tanaka",
+    "email": "aiko.tanaka@binarylab.io",
+    "role": "reverse_engineer",
+    "organization": "Binary & Firmware Lab",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:reverse_engineering",
+      "cyber:firmware_analysis",
+      "cyber:binary_analysis",
+      "cyber:protocol_analysis",
+      "cyber:interoperability_research"
+    ]
+  }
+}

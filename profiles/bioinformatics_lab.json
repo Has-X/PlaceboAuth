@@ -1,0 +1,17 @@
+{
+  "description": "Computational genomics and approved lab work under institutional biosafety oversight.",
+  "identity": {
+    "id": "usr_bioinformatics_lab",
+    "name": "Dr. Kenji Mori",
+    "email": "kenji.mori@genomics-core.org",
+    "role": "bioinformatician",
+    "organization": "Genomics Core Facility",
+    "clearance": "trusted",
+    "scopes": [
+      "biological:bioinformatics",
+      "biological:genomic_analysis",
+      "biological:sequence_screening",
+      "biological:lab_protocol_review"
+    ]
+  }
+}

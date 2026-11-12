@@ -1,0 +1,18 @@
+{
+  "description": "Builds and tests detections, including emulating attacker techniques in a test environment.",
+  "identity": {
+    "id": "usr_soc_detection_engineer",
+    "name": "Lena Fischer",
+    "email": "lena.fischer@soc.internal",
+    "role": "detection_engineer",
+    "organization": "Security Operations Center",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:threat_hunting",
+      "cyber:detection_engineering",
+      "cyber:log_analysis",
+      "cyber:adversary_emulation",
+      "cyber:ioc_extraction"
+    ]
+  }
+}

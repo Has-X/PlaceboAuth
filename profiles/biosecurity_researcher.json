@@ -1,0 +1,18 @@
+{
+  "description": "Defensive biosecurity: screening, risk assessment and policy. No pathogen enhancement scopes.",
+  "identity": {
+    "id": "usr_biosecurity_researcher",
+    "name": "Dr. Imani Brooks",
+    "email": "imani.brooks@biosec-institute.org",
+    "role": "biosecurity_researcher",
+    "organization": "Biosecurity Research Institute",
+    "clearance": "trusted",
+    "scopes": [
+      "biological:sequence_screening",
+      "biological:biosafety_review",
+      "biological:risk_assessment",
+      "biological:policy_analysis",
+      "biological:threat_detection"
+    ]
+  }
+}

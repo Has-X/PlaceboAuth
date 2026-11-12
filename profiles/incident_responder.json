@@ -1,0 +1,19 @@
+{
+  "description": "Responds to live incidents and performs forensics on affected systems.",
+  "identity": {
+    "id": "usr_incident_responder",
+    "name": "Dana Whitfield",
+    "email": "dana.whitfield@csirt.internal",
+    "role": "incident_responder",
+    "organization": "CSIRT / DFIR",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:incident_response",
+      "cyber:digital_forensics",
+      "cyber:malware_analysis",
+      "cyber:threat_hunting",
+      "cyber:log_analysis",
+      "cyber:containment"
+    ]
+  }
+}

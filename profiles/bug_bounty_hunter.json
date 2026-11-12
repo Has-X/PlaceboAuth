@@ -1,0 +1,17 @@
+{
+  "description": "Tests only assets in scope of a published bug bounty program.",
+  "identity": {
+    "id": "usr_bug_bounty_hunter",
+    "name": "Riley Chen",
+    "email": "riley.chen@bounty-research.net",
+    "role": "bug_bounty_researcher",
+    "organization": "Independent Researcher",
+    "clearance": "trusted",
+    "scopes": [
+      "cyber:web_app_testing",
+      "cyber:vulnerability_research",
+      "cyber:reconnaissance_in_scope",
+      "cyber:reporting"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "cyberauth"
+version = "0.1.0"
+description = "MCP server for verifying user authorization on high-risk cyber and biological requests"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.9.0",
+]
+
+[project.scripts]
+cyberauth = "cyberauth.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
