@@ -111,6 +111,11 @@ def install_agy_rule(server_name: str, rule_text: str) -> Path:
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Install and configure CyberAuth")
     parser.add_argument(
+        "--name",
+        default=None,
+        help="MCP server & plugin name (updates server_name in cyberauth.json)",
+    )
+    parser.add_argument(
         "--register-agy",
         action="store_true",
         help="Register the MCP server in ~/.gemini/config/mcp_config.json",
@@ -127,7 +132,17 @@ def main(argv: list[str] | None = None) -> None:
 
     py_path = ensure_venv(venv_dir)
     ensure_config(config_path)
-    server_name = read_server_name(config_path)
+    if args.name:
+        server_name = args.name.strip()
+        if config_path.is_file():
+            cfg_data = json.loads(config_path.read_text(encoding="utf-8"))
+            cfg_data["server_name"] = server_name
+            config_path.write_text(
+                json.dumps(cfg_data, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+    else:
+        server_name = read_server_name(config_path)
 
     if args.register_agy:
         mcp_cfg = register_agy_mcp(py_path, config_path, server_name)

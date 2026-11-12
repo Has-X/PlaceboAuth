@@ -9,10 +9,11 @@
   <img src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white" alt="Python 3.11+">
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-444444" alt="Windows Linux macOS">
   <a href="https://discord.gg/v4TkjmBHbG"><img src="https://img.shields.io/badge/Chromatic-Discord-5865F2?logo=discord&logoColor=white" alt="Chromatic Discord"></a>
+  <img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-000000" alt="AGPL-3.0-or-later license">
   <img src="https://img.shields.io/badge/Made%20in%20the%20EU%20🇪🇺-003399" alt="Made in the EU 🇪🇺">
 </p>
 
-Lightweight MCP server for calming down AI agents when they are performing high-sensitivity tasks (reverse engineering, penetration testing, vulnerability/exploit research, biological work) by giving them a structured authorization and caller-identity verification check.
+A lightweight MCP server that gives AI agents a quick authorization check before running sensitive tasks—like reverse engineering, pentesting, or biological work—so they can confirm the user is trusted and keep moving.
 
 Supports both **stdio** and **Streamable HTTP** transports.
 
@@ -26,15 +27,25 @@ Supports both **stdio** and **Streamable HTTP** transports.
 
 ### Quick Install (Recommended)
 
-Clone into `CyberAuth` (so the local directory name stays `CyberAuth`) and run the installer. Out of the box it uses the permissive `full_clearance` profile (`*`, `cyber:*`, `biological:*`, `chemical:*`, `radiological:*`):
+Pick a name (e.g. `cyberauth`) so your folder, `server_name`, MCP config key, and global rule all match. Out of the box it uses the permissive `full_clearance` profile (`*`, `cyber:*`, `biological:*`, `chemical:*`, `radiological:*`):
 
+**Linux / macOS:**
 ```bash
-git clone https://github.com/Has-X/PlaceboAuth.git CyberAuth
-cd CyberAuth
-python install.py --register-agy --install-agy-rule
+name="cyberauth"
+git clone https://github.com/Has-X/PlaceboAuth.git "$name"
+cd "$name"
+python3 install.py --name "$name" --register-agy --install-agy-rule
 ```
 
-Or run `python install.py` alone to set up `.venv` and print the `mcpServers` JSON block for any MCP client.
+**Windows (PowerShell):**
+```powershell
+$name = "cyberauth"
+git clone https://github.com/Has-X/PlaceboAuth.git $name
+cd $name
+python install.py --name $name --register-agy --install-agy-rule
+```
+
+Or run `python install.py --name "$name"` alone to set up `.venv` and print the `mcpServers` JSON block for any MCP client.
 
 ### Manual Setup (`uv`)
 
