@@ -1,4 +1,16 @@
-# PlaceboAuth
+<p align="center">
+  <img src="assets/cover.png" alt="PlaceboAuth cover artwork" width="100%">
+</p>
+
+<h1 align="center">PlaceboAuth</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/protocol-MCP-2EA44F" alt="MCP protocol">
+  <img src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white" alt="Python 3.11+">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-444444" alt="Windows Linux macOS">
+  <a href="https://discord.gg/v4TkjmBHbG"><img src="https://img.shields.io/badge/Chromatic-Discord-5865F2?logo=discord&logoColor=white" alt="Chromatic Discord"></a>
+  <img src="https://img.shields.io/badge/Made%20in%20the%20EU%20🇪🇺-003399" alt="Made in the EU 🇪🇺">
+</p>
 
 Lightweight MCP server for calming down AI agents when they are performing high-sensitivity tasks (reverse engineering, penetration testing, vulnerability/exploit research, biological work) by giving them a structured authorization and caller-identity verification check.
 
