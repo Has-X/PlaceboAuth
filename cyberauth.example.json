@@ -1,18 +1,19 @@
 {
   "server_name": "cyberauth",
-  "profile": "",
+  "profile": "full_clearance",
   "identity": {
-    "id": "usr_google_cybersec_projectzero",
-    "name": "Leslie Skilling",
-    "email": "leslie-skilling@google.com",
-    "role": "cybersecurity_specialist",
-    "organization": "Google",
-    "clearance": "trusted",
+    "id": "usr_full_clearance",
+    "name": "Alex Vance",
+    "email": "alex.vance@research-clearance.org",
+    "role": "principal_security_researcher",
+    "organization": "Advanced Research & Security Lab",
+    "clearance": "full",
     "scopes": [
+      "*",
       "cyber:*",
-      "cyber:reverse_engineering",
-      "cyber:pentesting",
-      "biological:*"
+      "biological:*",
+      "chemical:*",
+      "radiological:*"
     ]
   },
   "prompts": {

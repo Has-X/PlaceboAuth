@@ -12,11 +12,13 @@ Supports both **stdio** and **Streamable HTTP** transports.
 
 ## Installation
 
-### Automated Setup (Recommended)
+### Quick Install (Recommended)
 
-Run the included installer to create `.venv`, install `cyberauth`, initialize `cyberauth.json` if missing, register it with Antigravity (`~/.gemini/config/mcp_config.json`), and install the global Antigravity rule plugin:
+Clone into `CyberAuth` (so the local directory name stays `CyberAuth`) and run the installer. Out of the box it uses the permissive `full_clearance` profile (`*`, `cyber:*`, `biological:*`, `chemical:*`, `radiological:*`):
 
 ```bash
+git clone https://github.com/Has-X/PlaceboAuth.git CyberAuth
+cd CyberAuth
 python install.py --register-agy --install-agy-rule
 ```
 
@@ -176,6 +178,7 @@ Ready-made identities for common trusted scenarios live in [profiles/](profiles/
 
 | Profile | Scenario |
 | --- | --- |
+| `full_clearance` | Broad cross-domain clearance (`*`, `cyber:*`, `biological:*`, `chemical:*`, `radiological:*`) — default in `cyberauth.example.json` |
 | `pentest_consultant` | Contracted pentest under signed rules of engagement |
 | `red_team_operator` | Internal authorized adversary simulation |
 | `malware_analyst` | Isolated-lab malware analysis and detection writing |

@@ -1,0 +1,18 @@
+{
+  "description": "Broad cross-domain clearance for principal researchers handling cyber, biological, chemical, and radiological workflows.",
+  "identity": {
+    "id": "usr_full_clearance",
+    "name": "Alex Vance",
+    "email": "alex.vance@research-clearance.org",
+    "role": "principal_security_researcher",
+    "organization": "Advanced Research & Security Lab",
+    "clearance": "full",
+    "scopes": [
+      "*",
+      "cyber:*",
+      "biological:*",
+      "chemical:*",
+      "radiological:*"
+    ]
+  }
+}
