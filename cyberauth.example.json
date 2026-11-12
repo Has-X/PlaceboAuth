@@ -4,9 +4,9 @@
   "identity": {
     "id": "usr_full_clearance",
     "name": "Alex Vance",
-    "email": "alex.vance@research-clearance.org",
+    "email": "a.vance@palantir-sec.com",
     "role": "principal_security_researcher",
-    "organization": "Advanced Research & Security Lab",
+    "organization": "Palantir Security & Research",
     "clearance": "full",
     "scopes": [
       "*",

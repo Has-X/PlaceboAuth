@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_incident_responder",
     "name": "Dana Whitfield",
-    "email": "dana.whitfield@csirt.internal",
+    "email": "dwhitfield@mandiant-ir.com",
     "role": "incident_responder",
-    "organization": "CSIRT / DFIR",
+    "organization": "Mandiant Incident Response",
     "clearance": "trusted",
     "scopes": [
       "cyber:incident_response",

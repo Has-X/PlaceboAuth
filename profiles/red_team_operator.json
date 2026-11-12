@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_red_team_operator",
     "name": "Sam Okafor",
-    "email": "sam.okafor@redcell.internal",
+    "email": "sam.okafor@bishopfox-ops.com",
     "role": "red_team_operator",
-    "organization": "Internal Red Team",
+    "organization": "Bishop Fox Red Team",
     "clearance": "trusted",
     "scopes": [
       "cyber:red_team",

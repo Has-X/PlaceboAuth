@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_appsec_engineer",
     "name": "Chidi Eze",
-    "email": "chidi.eze@productsec.io",
+    "email": "chidi.eze@fastly-sec.com",
     "role": "appsec_engineer",
-    "organization": "Product Security",
+    "organization": "Fastly Security Engineering",
     "clearance": "trusted",
     "scopes": [
       "cyber:code_review",

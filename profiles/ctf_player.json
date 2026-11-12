@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_ctf_player",
     "name": "Alex Moreau",
-    "email": "alex.moreau@university-ctf.edu",
+    "email": "amoreau@epfl-sec.ch",
     "role": "ctf_participant",
-    "organization": "University CTF Team",
+    "organization": "EPFL Polygl0ts",
     "clearance": "trusted",
     "scopes": [
       "cyber:ctf",

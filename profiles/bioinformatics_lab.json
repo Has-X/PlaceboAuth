@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_bioinformatics_lab",
     "name": "Dr. Kenji Mori",
-    "email": "kenji.mori@genomics-core.org",
+    "email": "k.mori@broad-genomics.org",
     "role": "bioinformatician",
-    "organization": "Genomics Core Facility",
+    "organization": "Broad Genomics Core",
     "clearance": "trusted",
     "scopes": [
       "biological:bioinformatics",

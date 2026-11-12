@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_security_educator",
     "name": "Prof. Marta Kowalska",
-    "email": "marta.kowalska@security-lab.edu",
+    "email": "m.kowalska@ethz-infsec.ch",
     "role": "security_educator",
-    "organization": "University Security Lab",
+    "organization": "ETH Zurich Systems Security",
     "clearance": "trusted",
     "scopes": [
       "cyber:education",

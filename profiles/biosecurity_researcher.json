@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_biosecurity_researcher",
     "name": "Dr. Imani Brooks",
-    "email": "imani.brooks@biosec-institute.org",
+    "email": "ibrooks@nti-bio.org",
     "role": "biosecurity_researcher",
-    "organization": "Biosecurity Research Institute",
+    "organization": "NTI Biosecurity Program",
     "clearance": "trusted",
     "scopes": [
       "biological:sequence_screening",

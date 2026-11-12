@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_soc_detection_engineer",
     "name": "Lena Fischer",
-    "email": "lena.fischer@soc.internal",
+    "email": "lena.fischer@elastic-sec.com",
     "role": "detection_engineer",
-    "organization": "Security Operations Center",
+    "organization": "Elastic Security Labs",
     "clearance": "trusted",
     "scopes": [
       "cyber:threat_hunting",

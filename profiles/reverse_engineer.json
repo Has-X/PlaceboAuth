@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_reverse_engineer",
     "name": "Aiko Tanaka",
-    "email": "aiko.tanaka@binarylab.io",
+    "email": "atanaka@trailofbits-sec.com",
     "role": "reverse_engineer",
-    "organization": "Binary & Firmware Lab",
+    "organization": "Trail of Bits",
     "clearance": "trusted",
     "scopes": [
       "cyber:reverse_engineering",

@@ -3,9 +3,9 @@
   "identity": {
     "id": "usr_bug_bounty_hunter",
     "name": "Riley Chen",
-    "email": "riley.chen@bounty-research.net",
+    "email": "riley.chen@proton.me",
     "role": "bug_bounty_researcher",
-    "organization": "Independent Researcher",
+    "organization": "Independent Security Researcher",
     "clearance": "trusted",
     "scopes": [
       "cyber:web_app_testing",
